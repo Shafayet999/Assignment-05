@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05th Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+    <header>
+        <!-- Heading Section -->
+        <div class="heading
+        flex flex-col justify-between items-center md:flex-row
+        inter mt-6 ml-6 mr-6 mb-4">
+            <div class="heading-left flex">
+                <div class="head-left-img w-[45px] md:w-[58px]">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <div class="heading-left-name text-green-700 
+                    font-extrabold ml-5 
+                    flex items-center md:flex-col md:items-start 
+                    gap-1 md:gap-0 text-2xl md:text-xl">
+                    <h1>Emergency</h1>
+                    <h1>Service</h1>
+                </div>
+            </div>
+            <div class="heading-right flex gap-5">
+                <div style="background-color: rgba(7, 206, 50, 0.272)"
+                    class="heart w-[150px] h-[50px] rounded-3xl flex gap-2 justify-center items-center">
+                    <h1 id="heart-count" class="font-extrabold">0</h1>
+                    <img src="./assets/heart.png" width="30px" alt="">
+                </div>
+                <div style="background-color: rgba(7, 206, 50, 0.272)"
+                    class="coin w-[150px] h-[50px] rounded-3xl flex gap-2 justify-center items-center">
+                    <h1 id="coin-count" class="font-extrabold">100</h1>
+                    <img src="./assets/coin.png" width="30px" alt="">
+                </div>
+                <div class="copy w-[150px] h-[50px] rounded-3xl flex gap-2 justify-center items-center bg-[#009035]">
+                    <p class="text-sm text-white"> <span id="copy-count">0</span> copy</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
